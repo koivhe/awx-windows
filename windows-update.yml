@@ -10,8 +10,8 @@
   tasks:
     - name: Running Windows Update
       win_updates:
-        #category_names: ['SecurityUpdates','CriticalUpdates','UpdateRollups', 'Updates', 'DefinitionUpdates']
-        category_names: ['SecurityUpdates']
+        category_names: ['SecurityUpdates','CriticalUpdates','UpdateRollups', 'Updates', 'DefinitionUpdates']
+        #category_names: ['SecurityUpdates']
       register: result
 
     # output results
